@@ -1,0 +1,145 @@
+﻿@page "/bike"
+@using System.Text.Json
+@using System.Text.Json.Serialization
+@inject IHttpClientFactory ClientFactory
+
+@attribute [StreamRendering]
+
+<PageTitle>Bike</PageTitle>
+
+<h1>Bike</h1>
+
+<p>This component demonstrates showing data.</p>
+
+@if (getBranchesError)
+{
+    <p>Unable to get branches from GitHub. Please try again later.</p>
+}
+else
+{
+    <ul>
+        @foreach (var bike in bikes)
+        {
+            <li>@bike.number</li>
+            <li>@bike.name</li>
+        }
+    </ul>
+    
+}
+
+@code {
+    private WeatherForecast[]? forecasts;
+    private bool getBranchesError;
+    private bool shouldRender;
+    private IEnumerable<BikeStation>? bikes = Array.Empty<BikeStation>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        var request = new HttpRequestMessage(HttpMethod.Get,
+               "https://data.smartdublin.ie/dublinbikes-api/last_snapshot/");
+        //request.Headers.Add("Accept", "application/vnd.github.v3+json");
+        //request.Headers.Add("User-Agent", "HttpClientFactory-Sample");
+
+        var client = ClientFactory.CreateClient();
+
+        var response = await client.SendAsync(request);
+
+        if (response.IsSuccessStatusCode)
+        {
+            using var responseStream = await response.Content.ReadAsStreamAsync();
+            bikes = await JsonSerializer.DeserializeAsync
+                <IEnumerable<BikeStation>>(responseStream);
+        }
+        else
+        {
+            getBranchesError = true;
+        }
+
+        shouldRender = true;
+    }
+
+    /*protected override async Task OnInitializedAsync()
+        {
+        // Simulate asynchronous loading to demonstrate streaming rendering
+        await Task.Delay(500);
+
+        var startDate = DateOnly.FromDateTime(DateTime.Now);
+        var summaries = new[] { "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching" };
+        forecasts = Enumerable.Range(1, 5).Select(index => new WeatherForecast
+                {
+                Date = startDate.AddDays(index),
+                TemperatureC = Random.Shared.Next(-20, 55),
+                Summary = summaries[Random.Shared.Next(summaries.Length)]
+            }).ToArray();
+    }*/
+
+    private class WeatherForecast
+    {
+        public DateOnly Date { get; set; }
+        public int TemperatureC { get; set; }
+        public string? Summary { get; set; }
+        public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+    }
+
+    public class BikeStation
+    {
+        public int number { get; set; }
+        public string contractName { get; set; }
+        public string name { get; set; }
+        public string address { get; set; }
+        public Position position { get; set; }
+        public bool banking { get; set; }
+        public bool bonus { get; set; }
+        public string status { get; set; }
+        public DateTime lastUpdate { get; set; }
+        public bool connected { get; set; }
+        public bool overflow { get; set; }
+
+        public Totalstands totalStands { get; set; }
+        public Mainstands mainStands { get; set; }
+
+    }
+
+    public class Position
+    {
+        public float latitude { get; set; }
+        public float longitude { get; set; }
+    }
+
+    public class Totalstands
+    {
+        public Availabilities availabilities { get; set; }
+        public int capacity { get; set; }
+    }
+
+    public class Availabilities
+    {
+        public int bikes { get; set; }
+        public int stands { get; set; }
+        public int mechanicalBikes { get; set; }
+        public int electricalBikes { get; set; }
+        public int electricalInternalBatteryBikes { get; set; }
+        public int electricalRemovableBatteryBikes { get; set; }
+    }
+
+    public class Mainstands
+    {
+        public Availabilities1 availabilities { get; set; }
+        public int capacity { get; set; }
+    }
+
+    public class Availabilities1
+    {
+        public int bikes { get; set; }
+        public int stands { get; set; }
+        public int mechanicalBikes { get; set; }
+        public int electricalBikes { get; set; }
+        public int electricalInternalBatteryBikes { get; set; }
+        public int electricalRemovableBatteryBikes { get; set; }
+    }
+
+}<h3>Bikes</h3>
+
+@code {
+
+}

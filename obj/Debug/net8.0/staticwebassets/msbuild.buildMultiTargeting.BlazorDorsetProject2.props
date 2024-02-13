@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BlazorDorsetProject2.props" />
+</Project>
