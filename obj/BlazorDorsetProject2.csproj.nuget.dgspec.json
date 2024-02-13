@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jules\\Documents\\POO dorset\\epita-stu74528\\BlazorDorsetProject2\\BlazorDorsetProject2.csproj": {}
+    "C:\\Users\\gabri\\TP EPITA PROG\\S4POO\\exam\\blazorprojectstu74528\\BlazorDorsetProject2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jules\\Documents\\POO dorset\\epita-stu74528\\BlazorDorsetProject2\\BlazorDorsetProject2.csproj": {
+    "C:\\Users\\gabri\\TP EPITA PROG\\S4POO\\exam\\blazorprojectstu74528\\BlazorDorsetProject2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jules\\Documents\\POO dorset\\epita-stu74528\\BlazorDorsetProject2\\BlazorDorsetProject2.csproj",
+        "projectUniqueName": "C:\\Users\\gabri\\TP EPITA PROG\\S4POO\\exam\\blazorprojectstu74528\\BlazorDorsetProject2.csproj",
         "projectName": "BlazorDorsetProject2",
-        "projectPath": "C:\\Users\\jules\\Documents\\POO dorset\\epita-stu74528\\BlazorDorsetProject2\\BlazorDorsetProject2.csproj",
-        "packagesPath": "C:\\Users\\jules\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jules\\Documents\\POO dorset\\epita-stu74528\\BlazorDorsetProject2\\obj\\",
+        "projectPath": "C:\\Users\\gabri\\TP EPITA PROG\\S4POO\\exam\\blazorprojectstu74528\\BlazorDorsetProject2.csproj",
+        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gabri\\TP EPITA PROG\\S4POO\\exam\\blazorprojectstu74528\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jules\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

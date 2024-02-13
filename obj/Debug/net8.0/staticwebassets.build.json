@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ph25Ge3ly/wssmnYaGbzoUT/KtYAJGu85fqE2H1UWDI=",
+  "Hash": "xkywFffFj7uIrJ1Bz1Zipniylc4/aUFG2QofHqm1fe0=",
   "Source": "BlazorDorsetProject2",
   "BasePath": "_content/BlazorDorsetProject2",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BlazorDorsetProject2\\wwwroot",
       "Source": "BlazorDorsetProject2",
-      "ContentRoot": "C:\\Users\\jules\\Documents\\POO dorset\\epita-stu74528\\BlazorDorsetProject2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gabri\\TP EPITA PROG\\S4POO\\exam\\blazorprojectstu74528\\wwwroot\\",
       "BasePath": "_content/BlazorDorsetProject2",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\jules\\Documents\\POO dorset\\epita-stu74528\\BlazorDorsetProject2\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorDorsetProject2.styles.css",
+      "Identity": "C:\\Users\\gabri\\TP EPITA PROG\\S4POO\\exam\\blazorprojectstu74528\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorDorsetProject2.styles.css",
       "SourceId": "BlazorDorsetProject2",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\jules\\Documents\\POO dorset\\epita-stu74528\\BlazorDorsetProject2\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\gabri\\TP EPITA PROG\\S4POO\\exam\\blazorprojectstu74528\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BlazorDorsetProject2",
       "RelativePath": "BlazorDorsetProject2.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\jules\\Documents\\POO dorset\\epita-stu74528\\BlazorDorsetProject2\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorDorsetProject2.styles.css"
+      "OriginalItemSpec": "C:\\Users\\gabri\\TP EPITA PROG\\S4POO\\exam\\blazorprojectstu74528\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorDorsetProject2.styles.css"
     },
     {
-      "Identity": "C:\\Users\\jules\\Documents\\POO dorset\\epita-stu74528\\BlazorDorsetProject2\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorDorsetProject2.bundle.scp.css",
+      "Identity": "C:\\Users\\gabri\\TP EPITA PROG\\S4POO\\exam\\blazorprojectstu74528\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorDorsetProject2.bundle.scp.css",
       "SourceId": "BlazorDorsetProject2",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\jules\\Documents\\POO dorset\\epita-stu74528\\BlazorDorsetProject2\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\gabri\\TP EPITA PROG\\S4POO\\exam\\blazorprojectstu74528\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BlazorDorsetProject2",
       "RelativePath": "BlazorDorsetProject2.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\jules\\Documents\\POO dorset\\epita-stu74528\\BlazorDorsetProject2\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorDorsetProject2.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\gabri\\TP EPITA PROG\\S4POO\\exam\\blazorprojectstu74528\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorDorsetProject2.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\jules\\Documents\\POO dorset\\epita-stu74528\\BlazorDorsetProject2\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\gabri\\TP EPITA PROG\\S4POO\\exam\\blazorprojectstu74528\\wwwroot\\app.css",
       "SourceId": "BlazorDorsetProject2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jules\\Documents\\POO dorset\\epita-stu74528\\BlazorDorsetProject2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gabri\\TP EPITA PROG\\S4POO\\exam\\blazorprojectstu74528\\wwwroot\\",
       "BasePath": "_content/BlazorDorsetProject2",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\jules\\Documents\\POO dorset\\epita-stu74528\\BlazorDorsetProject2\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\gabri\\TP EPITA PROG\\S4POO\\exam\\blazorprojectstu74528\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "BlazorDorsetProject2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jules\\Documents\\POO dorset\\epita-stu74528\\BlazorDorsetProject2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gabri\\TP EPITA PROG\\S4POO\\exam\\blazorprojectstu74528\\wwwroot\\",
       "BasePath": "_content/BlazorDorsetProject2",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\jules\\Documents\\POO dorset\\epita-stu74528\\BlazorDorsetProject2\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\gabri\\TP EPITA PROG\\S4POO\\exam\\blazorprojectstu74528\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "BlazorDorsetProject2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jules\\Documents\\POO dorset\\epita-stu74528\\BlazorDorsetProject2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gabri\\TP EPITA PROG\\S4POO\\exam\\blazorprojectstu74528\\wwwroot\\",
       "BasePath": "_content/BlazorDorsetProject2",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\jules\\Documents\\POO dorset\\epita-stu74528\\BlazorDorsetProject2\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\gabri\\TP EPITA PROG\\S4POO\\exam\\blazorprojectstu74528\\wwwroot\\favicon.png",
       "SourceId": "BlazorDorsetProject2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jules\\Documents\\POO dorset\\epita-stu74528\\BlazorDorsetProject2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gabri\\TP EPITA PROG\\S4POO\\exam\\blazorprojectstu74528\\wwwroot\\",
       "BasePath": "_content/BlazorDorsetProject2",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
